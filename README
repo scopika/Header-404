@@ -5,12 +5,17 @@ Ce plugin pour Thelia prend en charge les redirections 404 lorsque le fichier ht
 >> Installation
 Veuillez simplement glisser le répertoire header404/ dans le dossier client/plugins/ de votre Thelia et activer le plugin.
 
+
+>> Utilisation
 Le plugin inclut un fichier 404.html qui sera utilisé par le moteur Thelia en cas de page non trouvée.
 Il est possible de surcharger ce fichier en créant un fichier 404.html dans votre dossier de template.
 
 
 >> Log version:
+v1.1: Le plugin devient moins intrusif et n'intervient réellement qu'en cas d'erreur 404.
+Toutes les autres erreurs sont laissées au moteur de Thelia
+
 v1.0: Création du plugin
 
 
->> Auteur : www.scopika.com
+>> Auteur : Cyril Batillat, www.scopika.com

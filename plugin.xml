@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<plugin>
+	<nom>404</nom>
+ 	<version>1.1</version>
+ 	<prefix>header404</prefix>
+	<type>classique</type>
+ 	<auteur>Scopika.com</auteur>
+ 	<thelia>1.5.3</thelia>
+ 	<description>
+ 		Redirections 404 pour les pages non trouvées.
+ 		&lt;br/&gt; Création : &lt;a href="http://wwww.scopika.com"&gt;Agence Scopika&lt;/a&gt;
+ 	</description>
+	<documentation>README</documentation>
+ 	<etat>production</etat>
+</plugin>
