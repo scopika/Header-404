@@ -20,10 +20,10 @@ class Header404 extends PluginsClassiques{
             $path_reptpl = rtrim($reptpl, '/');
             if (strpos($path_tpl, $path_reptpl) !== 0)  return; // on laisse la main au moteur Thelia
 
-            if (!file_exists($tpl)) {
-                $tpl .= ".html";
-                if(!file_exists($tpl)) return; // on laisse la main au moteur Thelia
-            }
+            $tpl = realpath(dirname(__FILE__) . '/../../../') . '/' . $tpl;
+
+            if (file_exists($tpl)) return;
+            if (file_exists($tpl . '.html')) return;
 			
 			// page non trouvée => page 404
             header("HTTP/1.1 404 Not Found");
